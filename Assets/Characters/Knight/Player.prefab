@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 217452822881806730}
   - component: {fileID: 2948036172598104631}
   - component: {fileID: 6922803859708501172}
+  - component: {fileID: 800000000000000001}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -234,3 +235,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finishTag: Finish
+--- !u!114 &800000000000000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745024228746840600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31eb17ee08579fa42ab36e1700e75d13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gliderGravityMultiplier: 0.5
+  attackAnimationDuration: 0.6
